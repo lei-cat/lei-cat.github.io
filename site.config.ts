@@ -5,6 +5,7 @@ export default defineSiteConfig({
   lang: 'zh-CN',
   title: '雷猫的小站',
   subtitle: '没有时间了！',
+  mode: 'light',
   author: {
     name: '雷猫',
     // avatar: 'https://jamesdog.github.io/images/jamesdog.png',
