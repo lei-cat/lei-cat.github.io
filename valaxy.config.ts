@@ -63,7 +63,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       /**
        * @en Image url when dark mode
        */
-      //dark?: string
+      dark: '/bg3.jpg',
       /**
        * @en Image opacity
        */
