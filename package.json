@@ -3,17 +3,18 @@
   "version": "0.14.25",
   "private": true,
   "scripts": {
-    "build": "npm run build:ssg && npm run rss",
+    "build": "npm run build:ssg && npm run rss && npx valaxy fuse",
     "build:spa": "valaxy build",
     "build:ssg": "valaxy build --ssg",
     "dev": "valaxy",
     "rss": "valaxy rss",
-    "fuse": "valaxy fuse",
     "new": "valaxy new",
     "serve": "vite preview"
   },
   "dependencies": {
     "valaxy": "0.14.25",
+    "valaxy-addon-algolia": "^0.0.2",
+    "valaxy-addon-components": "^0.0.1",
     "valaxy-theme-yun": "0.14.25"
   },
   "devDependencies": {

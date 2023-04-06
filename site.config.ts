@@ -1,18 +1,18 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://ocdigi.com/',
+  url: 'https://lei-cat-github-io.pages.dev/',
   lang: 'zh-CN',
-  title: '雷猫的小站',
-  subtitle: '没有时间了！',
-  mode: 'light',
+  title: '雷猫的小屋',
+  subtitle: '人老了！记忆力不行了！写点东西记录下来！',
+  //mode: 'light',
   author: {
     name: '雷猫',
     // avatar: 'https://jamesdog.github.io/images/jamesdog.png',
     avatar: '/641.webp',
-    link: 'https://ocdigi.com',
+    link: 'https://lei-cat-github-io.pages.dev',
   },
-  description: '和雷老虎没关系',
+  description: '我和雷老虎没关系',
   social: [
     /**
     {
@@ -129,6 +129,10 @@ export default defineSiteConfig({
     ],
   },
 
+  mediumZoom: {
+    enable: true,
+  },
+  
    /**
    * 开启阅读统计
    */

@@ -56,3 +56,14 @@ public Class Test{
   }
 }
 ```
+
+## Bilibili视频嵌入
+```
+<iframe src="//player.bilibili.com/player.html?aid=975762282&bvid=BV1q44y147eW&cid=417146522&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" height="380"> </iframe>
+```
+<iframe src="//player.bilibili.com/player.html?aid=975762282&bvid=BV1q44y147eW&cid=417146522&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" height="380"> </iframe>
+
+```
+netsh int ip reset   
+netsh int ip reset   
+```

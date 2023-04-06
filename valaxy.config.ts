@@ -1,5 +1,6 @@
 import { defineValaxyConfig } from 'valaxy'
 import type { UserThemeConfig } from 'valaxy-theme-yun'
+import { addonComponents } from "valaxy-addon-components";
 
 // add icons what you will need
 const safelist = [
@@ -12,12 +13,16 @@ const safelist = [
 export default defineValaxyConfig<UserThemeConfig>({
   // site config see site.config.ts
 
+  addons: [
+    addonComponents(),
+  ],
+
   theme: 'yun',
 
   themeConfig: {
     banner: {
       enable: true,
-      title: '雷猫的小站',
+      title: '雷猫的小屋',
       cloud: {
         enable: true,
       },
