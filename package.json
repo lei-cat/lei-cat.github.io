@@ -9,9 +9,11 @@
     "dev": "valaxy",
     "rss": "valaxy rss",
     "new": "valaxy new",
+    "fuse": "valaxy fuse",
     "serve": "vite preview"
   },
   "dependencies": {
+    "npx": "^3.0.0",
     "valaxy": "0.14.25",
     "valaxy-addon-algolia": "^0.0.2",
     "valaxy-addon-components": "^0.0.1",

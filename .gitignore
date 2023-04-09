@@ -14,5 +14,6 @@ dist-ssr
 node_modules
 .idea/
 *.log
+cos_pics
 
 components.d.ts

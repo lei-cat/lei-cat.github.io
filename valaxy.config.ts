@@ -44,10 +44,10 @@ export default defineValaxyConfig<UserThemeConfig>({
     ],
 
     footer: {
-      since: 2022,
+      since: 2023,
       icon: {
-        title: 'jamesdog.top',
-        url: 'http://jamesdog.top',
+        title: 'leicat.top',
+        url: 'http://leicat.top',
       },
       powered: true,
       beian: {
@@ -64,11 +64,11 @@ export default defineValaxyConfig<UserThemeConfig>({
       /**
        * @en Image url
        */
-      url: '/bg3.jpg',
+      url: 'http://leicat.ueuo.com/cos_pics/site/bg3.webp',
       /**
        * @en Image url when dark mode
        */
-      dark: '/bg3.jpg',
+      dark: 'http://leicat.ueuo.com/cos_pics/site/bg3.webp',
       /**
        * @en Image opacity
        */

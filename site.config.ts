@@ -1,7 +1,7 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://lei-cat-github-io.pages.dev/',
+  url: 'https://leicat.top',
   lang: 'zh-CN',
   title: '雷猫的小屋',
   subtitle: '人老了！记忆力不行了！写点东西记录下来！',
@@ -9,8 +9,8 @@ export default defineSiteConfig({
   author: {
     name: '雷猫',
     // avatar: 'https://jamesdog.github.io/images/jamesdog.png',
-    avatar: '/641.webp',
-    link: 'https://lei-cat-github-io.pages.dev',
+    avatar: 'http://leicat.ueuo.com/cos_pics/site/leicat.webp',
+    link: 'https://leicat.top',
   },
   description: '我和雷老虎没关系',
   social: [
@@ -84,7 +84,7 @@ export default defineSiteConfig({
      */
     {
       name: 'E-Mail',
-      link: 'mailto:jamesdog@qq.com',
+      link: 'mailto:cat.lei@outlook.com',
       icon: 'i-ri-mail-line',
       color: '#8E71C1',
     },

@@ -7,7 +7,7 @@ import YunFooter from "valaxy-theme-yun/components/YunFooter.vue";
     <!--<NetdunLogo />-->
     <VCLiveTime start-time="2023-04-01">
       <template #live-time-before>
-        <span>风雨交加，已经在网络的海洋上航行了</span>
+        <span>春夏秋冬，小屋已通电</span>
       </template>
       <template #live-time-after>
         <span>(●'◡'●)</span>
