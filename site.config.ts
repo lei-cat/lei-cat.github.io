@@ -9,7 +9,7 @@ export default defineSiteConfig({
   author: {
     name: '雷猫',
     // avatar: 'https://jamesdog.github.io/images/jamesdog.png',
-    avatar: 'http://leicat.ueuo.com/cos_pics/site/leicat.webp',
+    avatar: '/leicat.webp',
     link: 'https://leicat.top',
   },
   description: '我和雷老虎没关系',

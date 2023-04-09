@@ -64,11 +64,11 @@ export default defineValaxyConfig<UserThemeConfig>({
       /**
        * @en Image url
        */
-      url: 'http://leicat.ueuo.com/cos_pics/site/bg3.webp',
+      url: '/bg3.webp',
       /**
        * @en Image url when dark mode
        */
-      dark: 'http://leicat.ueuo.com/cos_pics/site/bg3.webp',
+      dark: '/bg3.webp',
       /**
        * @en Image opacity
        */
