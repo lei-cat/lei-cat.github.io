@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ubuntu 20.04 下 APT 安装 mysql-8.0
+title: Ubuntu 22.04 下 安装配置 mysql-8.0
 date: 2023-04-13 04:05:44
 categories: 
     - 数据库
