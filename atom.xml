@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://leicat.top/</id>
+    <title>雷猫的小屋</title>
+    <updated>2023-04-20T20:32:13.673Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>雷猫</name>
+        <email>i@valaxy.site</email>
+        <uri>https://leicat.top</uri>
+    </author>
+    <link rel="alternate" href="https://leicat.top/"/>
+    <link rel="self" href="https://leicat.top/feed.atom"/>
+    <subtitle>我和雷老虎没关系</subtitle>
+    <logo>https://leicat.top/leicat.webp</logo>
+    <icon>https://leicat.top/favicon.svg</icon>
+    <rights>CC BY-NC-SA 4.0 2023 © 雷猫</rights>
+    <entry>
+        <title type="html"><![CDATA[Ubuntu 22.04 下 安装配置 mysql-8.0]]></title>
+        <id>https://leicat.top/posts/APT-install-mysql8.0-on-Ubuntu22.04</id>
+        <link href="https://leicat.top/posts/APT-install-mysql8.0-on-Ubuntu22.04"/>
+        <updated>2023-04-13T04:05:44.000Z</updated>
+        <content type="html"><![CDATA[<h2>安装MYSQL</h2>
+<pre><code class="language-bash">shell&gt;  apt install mysql-server-8.0 mysql-client-8.0
+</code></pre>
+<h2>配置可远程访问</h2>
+<p>修改 /etc/m</p>
+]]></content>
+        <author>
+            <name>雷猫</name>
+            <email>i@valaxy.site</email>
+            <uri>https://leicat.top</uri>
+        </author>
+        <published>2023-04-20T20:31:29.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[在Mac上关闭和启用SIP]]></title>
+        <id>https://leicat.top/posts/disabling-and-enabling-system-integrity-protection-on-mac</id>
+        <link href="https://leicat.top/posts/disabling-and-enabling-system-integrity-protection-on-mac"/>
+        <updated>2023-04-21T03:37:07.000Z</updated>
+        <content type="html"><![CDATA[<p>在sip系统完整性关闭前，我们先检查是否启用了SIP系统完整性保护?</p>
+<p>方法一、使用终端</p>
+<p>打开终端<br>
+输入以下命令并回车csrutil status</p>
+<p>![status](<a href="https://pic60">https://pic60</a></p>
+]]></content>
+        <author>
+            <name>雷猫</name>
+            <email>i@valaxy.site</email>
+            <uri>https://leicat.top</uri>
+        </author>
+        <published>2023-04-20T20:31:29.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vue3基础学习]]></title>
+        <id>https://leicat.top/posts/introduction-to-vue3</id>
+        <link href="https://leicat.top/posts/introduction-to-vue3"/>
+        <updated>2023-04-16T11:48:58.000Z</updated>
+        <content type="html"><![CDATA[<h2>项目搭建</h2>
+<p>初始化项目，有两种方式</p>
+<ul>
+<li>方式一：vue-cli脚手架初始化Vue3项目</li>
+</ul>
+<p>官方文档：<a href="https://cli.vuejs.org/zh/guide/creating-a-pro">https://cli.vuejs.org/zh/guide/creating-a-pro</a></p>
+]]></content>
+        <author>
+            <name>雷猫</name>
+            <email>i@valaxy.site</email>
+            <uri>https://leicat.top</uri>
+        </author>
+        <published>2023-04-20T20:31:29.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OCWMS Server生产环境配置信息]]></title>
+        <id>https://leicat.top/posts/my-server-configuraion-for-PRD</id>
+        <link href="https://leicat.top/posts/my-server-configuraion-for-PRD"/>
+        <updated>2023-04-13T07:30:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>apache静态页面存放路径</h2>
+<pre><code>html -&gt; /var/www/html/
+</code></pre>
+<h2>ocwms jar存放路径</h2>
+<pre><code>jar -&gt; /usr/local/jar
+</code></pre>
+]]></content>
+        <author>
+            <name>雷猫</name>
+            <email>i@valaxy.site</email>
+            <uri>https://leicat.top</uri>
+        </author>
+        <published>2023-04-20T20:31:29.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Valaxy基本用法]]></title>
+        <id>https://leicat.top/posts/how-to-use-valaxy</id>
+        <link href="https://leicat.top/posts/how-to-use-valaxy"/>
+        <updated>2023-04-05T17:31:33.000Z</updated>
+        <content type="html"><![CDATA[<p>标题居中</p>
+<pre><code class="language-md"># &lt;center&gt;标题&lt;/center&gt;
+</code></pre>
+]]></content>
+        <author>
+            <name>雷猫</name>
+            <email>i@valaxy.site</email>
+            <uri>https://leicat.top</uri>
+        </author>
+        <published>2023-04-15T04:21:05.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[git常用命令笔记]]></title>
+        <id>https://leicat.top/posts/how-to-use-github</id>
+        <link href="https://leicat.top/posts/how-to-use-github"/>
+        <updated>2023-04-07T04:31:04.000Z</updated>
+        <content type="html"><![CDATA[<p>介绍github相关配置操作，包括初始化、密钥生成和代码提交等。</p>
+<h2>初始化仓库</h2>
+<p>在工作目录中创建新的git仓库。</p>
+<pre><code class="language-bash">git init
+</code></pre>
+<p>如果已经创建git仓库，检查用</p>
+]]></content>
+        <author>
+            <name>雷猫</name>
+            <email>i@valaxy.site</email>
+            <uri>https://leicat.top</uri>
+        </author>
+        <published>2023-04-07T05:48:05.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello, Valaxy!]]></title>
+        <id>https://leicat.top/posts/hello-valaxy</id>
+        <link href="https://leicat.top/posts/hello-valaxy"/>
+        <updated>2022-04-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>Valaxy</h2>
+<p>Next Generation Static Blog Framework.</p>
+<p>Write your first post!</p>
+<h2>Usage</h2>
+<p>Modify `valaxy</p>
+]]></content>
+        <author>
+            <name>雷猫</name>
+            <email>i@valaxy.site</email>
+            <uri>https://leicat.top</uri>
+        </author>
+        <published>2022-04-01T00:00:00.000Z</published>
+    </entry>
+</feed>
